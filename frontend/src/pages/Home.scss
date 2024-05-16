@@ -1,0 +1,191 @@
+.overlay__blog{
+    background-image: url("https://preview.colorlib.com/theme/pulse/img/slider/slider-2.jpg.webp");
+    position: relative;
+    min-height: 890px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+.overlay__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog__text {
+    font-size: 24px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+    text-align: center;
+
+}
+
+.blog__head {
+    font-size: 80px;
+    font-weight: 900;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    text-align: center;
+
+
+}
+
+.welcome{
+    background-color: yellow;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.welcomegeneral{
+    max-width: 700px;
+    width: 100%;
+}
+.cards{
+    display: flex;
+    gap: 50px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.welcomegeneral{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+@media only screen and (max-width: 991px) {
+    .cards{
+        padding: 20px;
+        display: grid;
+        place-content: center;
+        place-items: center;
+        grid-template-columns:  1fr ;
+        grid-template-rows: 1fr 1fr 1fr;
+        max-width: 300px;
+        width: 100%;
+    }
+    
+    
+  }
+.iconsign{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.welcometext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.testimonials{
+    background-image: url('https://preview.colorlib.com/theme/pulse/img/review-bg.jpg.webp');
+    min-height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    background-position: center;
+}
+.testimonialstext{
+    max-width: 1500px;
+    width: 100%;
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 30px;
+
+}
+.headtest{
+    color: white;
+    text-align: center;
+}
+.texttest{
+    color: white;
+}
+
+.cardsourservices{
+    display: grid;
+    place-content: center;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+
+@media only screen and (max-width: 991px) {
+    .cardsourservices{
+        padding: 20px;
+        display: grid;
+        place-content: center;
+        place-items: center;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr;
+    }
+    
+    
+  }
+  @media only screen and (max-width: 768px) {
+    .cardsourservices{
+        padding: 20px;
+        display: grid;
+        place-content: center;
+        place-items: center;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        max-width: 250px;
+        width: 100%;
+        text-align: center;
+
+    }
+  }
+
+  .menuprice{
+    display: grid;
+    place-content: center;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr ;
+    gap: 50px;
+
+  }
+  .opinion{
+    display: flex;
+    gap: 40px;
+    li{
+        color: white;
+    }
+  }
+  .ourmenusection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+    background-image: url('https://preview.colorlib.com/theme/pulse/img/menu-bg.jpg.webp');
+  }
+  .generalmenu{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    h3,h2{
+            color: white;
+    }
+    
+    p{
+        color: white;
+    }
+  }
